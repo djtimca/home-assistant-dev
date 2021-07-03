@@ -2,7 +2,7 @@
 import copy
 import logging
 
-from flux_led import BulbScanner
+from magic_flux_led import BulbScanner
 import voluptuous as vol
 
 from homeassistant import config_entries
