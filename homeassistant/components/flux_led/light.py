@@ -4,7 +4,7 @@ from datetime import timedelta
 import logging
 import random
 
-from flux_led import WifiLedBulb
+from magic_flux_led import WifiLedBulb
 import voluptuous as vol
 
 from homeassistant.components.light import (  # COLOR_MODES_BRIGHTNESS,; SUPPORT_BRIGHTNESS,; SUPPORT_COLOR,; SUPPORT_COLOR_TEMP,; SUPPORT_WHITE_VALUE,
