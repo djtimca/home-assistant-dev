@@ -4,7 +4,7 @@ import copy
 from datetime import timedelta
 import logging
 
-from flux_led import BulbScanner
+from magic_flux_led import BulbScanner
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_DEVICES, CONF_HOST, CONF_NAME
